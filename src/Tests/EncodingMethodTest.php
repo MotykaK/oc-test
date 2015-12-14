@@ -1,11 +1,10 @@
 <?php
 
 namespace Tests;
-namespace Kmotyka;
 
 use Jkan\Component\Password\Encoder;
 use Jkan\Component\Password\Method\Md5Encoding;
-use src\Kmotyka\Sha1Encoding;
+use Kmotyka\Sha1Encoding;
 
 class EncodingMethodTest extends \PHPUnit_Framework_TestCase
 {

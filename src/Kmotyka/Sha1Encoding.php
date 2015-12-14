@@ -5,16 +5,16 @@
  * Feel free to contact me
  */
 
-namespace src\Kmotyka;
+namespace Kmotyka;
 
 
 use Jkan\Component\Password\EncodingMethod;
 
-class Sh1Encoding implements EncodingMethod
+class Sha1Encoding implements EncodingMethod
 {
 
     public function encode($plainText)
     {
-        return sh1($plainText);
+        return sha1($plainText);
     }
 }
